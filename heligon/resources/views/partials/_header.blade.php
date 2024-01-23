@@ -37,7 +37,7 @@
                                             <li><a href='/'>Custom Web Development</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Mobile Development</a>
+                                    <li><a href="{{ route('home.mobiledev') }}">Mobile Development</a>
                                         
                                     </li>
                                     
