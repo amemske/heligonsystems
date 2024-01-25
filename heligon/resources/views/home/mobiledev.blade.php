@@ -29,7 +29,7 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6 col-md-9 order-0 order-lg-2">
                 <div class="about__img-wrap-seven">
-                    <img src="assets/img/images/inner04_about_img.jpg" alt="">
+                    <img src="{{ asset('assets/img/mobile-img.jpg') }}" alt="">
                     
                 </div>
             </div>
@@ -56,8 +56,8 @@
         </div>
     </div>
     <div class="about__shape-wrap-four">
-        <img src="assets/img/images/h4_about_shape01.png" alt="">
-        <img src="assets/img/images/h4_about_shape02.png" alt="" data-parallax='{"x" : -80 , "y" : -80 }'>
+        <img src="{{ asset('assets/img/images/h4_about_shape01.png') }}" alt="">
+        <img src="{{ asset('assets/img/images/h4_about_shape02.png') }}" alt="" data-parallax='{"x" : -80 , "y" : -80 }'>
     </div>
 </section>
 <!-- about-area-end -->

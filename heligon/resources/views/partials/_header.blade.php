@@ -27,24 +27,24 @@
                             </div>
                             <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
                                 <ul class="navigation">
-                                    <li class="active"><a href="#">Home</a>
+                                    <li class="{{ Route::is('home.index') ? 'active' : '' }}"><a href="{{ route('home.index') }}">Home</a>
                                         
                                     </li>
-                                    <li class="menu-item-has-children">
+                                    <li class="menu-item-has-children {{ Route::is('home.cmsdev') ? 'active' : '' }}">
                                         <a href="#">Web Development</a>
                                         <ul class="sub-menu">
-                                            <li><a href='{{ route('home.drupaldev') }}'>Drupal Development</a></li>
-                                            <li><a href='/'>Custom Web Development</a></li>
+                                            <li class="{{ Route::is('home.cmsdev') ? 'active' : '' }}"><a href='{{ route('home.cmsdev') }}'>CMS Development</a></li>
+                                            <li class="{{ Route::is('home.webdev') ? 'active' : '' }}"><a href='{{ route('home.webdev') }}'>Web App Development</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{ route('home.mobiledev') }}">Mobile Development</a>
+                                    <li class="{{ Route::is('home.mobiledev') ? 'active' : '' }}"><a href="{{ route('home.mobiledev') }}">Mobile Development</a>
                                         
                                     </li>
                                     
-                                    <li><a href="#">Why Us</a>
+                                    <li class="{{ Route::is('home.approach') ? 'active' : '' }}"><a href="{{ route('home.approach') }}">Our Approach</a>
                                         
                                     </li>
-                                    <li><a href="#">About Us</a>
+                                    <li class="{{ Route::is('home.about') ? 'active' : '' }}"><a href="{{ route('home.about') }}">About Us</a>
                                         
                                     </li>
                                    
@@ -52,7 +52,7 @@
                             </div>
                             <div class="tgmenu__action tgmenu__action-five d-none d-md-block">
                                 <ul class="list-wrap">
-                                    <li class="header-btn"><a class='btn' href='/contact'>Contacts</a></li>
+                                    <li class="header-btn"><a class='btn' href='#'>Tel: 0727 781 090</a></li>
                                 </ul>
                             </div>
                             <div class="mobile-nav-toggler mobile-nav-toggler-two">

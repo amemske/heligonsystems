@@ -4,15 +4,14 @@
 
 @section('content')
    <!-- banner-area -->
-   <section class="banner-area banner-bg" data-background="{{ asset('assets/img/banner/banner_bg.jpg') }}">
+   <section class="banner-area banner-bg" data-background="{{ asset('assets/img/hero1.jpg') }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
                 <div class="banner-content">
-                    <span class="sub-title" data-aos="fade-up" data-aos-delay="0">We Are Expert In This Field</span>
                     <h2 class="title" data-aos="fade-up" data-aos-delay="200">Crafting Success with Innovative Tech Solutions</h2>
                     <p data-aos="fade-up" data-aos-delay="400">Unleash the potential of digital transformation with our comprehensive range of services. From strategic consultation and software development to cutting-edge machine learning and user experience design, we’re your partner in progress.</p>
-                    <a class='btn' data-aos-delay='600' data-aos='fade-up' href='/about'>Read More</a>
+                    
                 </div>
                
             </div>
@@ -28,7 +27,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="about-img-wrap">
-                        <img src="assets/img/home-intro.jpg" alt="">
+                        <img src="{{ asset('assets/img/home-intro.jpg') }}" alt="">
                     
                     
                    
@@ -37,8 +36,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="about-content">
-                    <div class="section-title mb-35 tg-heading-subheading animation-style3">
-                        <span class="sub-title">Simply Know About</span>
+                    <div class="section-title mb-35 tg-heading-subheading ">
                         <h2 class="title tg-element-title">Trusted Software Solutions Partner</h2>
                     </div>
                    
@@ -50,7 +48,7 @@
         </div>
     </div>
     <div class="about-left-shape">
-        <img src="assets/img/images/about_shape02.png" alt="">
+        <img src="{{ asset('assets/img/images/about_shape02.png') }}" alt="">
     </div>
 </section>
 <!-- about-area-end -->
@@ -60,7 +58,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-7">
-                <div class="section-title text-center mb-50 tg-heading-subheading animation-style3">
+                <div class="section-title text-center mb-50 tg-heading-subheading ">
                     <span class="sub-title">OUR SERVICES</span>
                     <h2 class="title tg-element-title">Technology Solutions</h2>
                 </div>
@@ -77,8 +75,8 @@
                         </div>
                         <div class="project-content">
                             <div class="left-side-content">
-                                <h4 class="title"><a href='/project-details'>Web Development</a></h4>
-                                <span>Crafting Online Journeys</span>
+                                <h4 class="title"><a href='{{ route('home.webdev') }}'>Web App Development</a></h4>
+                                <span>Web Apps with React, Laravel and Spring</span>
                             </div>
                             <div class="link-arrow">
                                 <a href='/project-details'>
@@ -98,8 +96,8 @@
                         </div>
                         <div class="project-content">
                             <div class="left-side-content">
-                                <h4 class="title"><a href='/project-details'>Mobile Development</a></h4>
-                                <span>Seamless Business Operations Anywhere</span>
+                                <h4 class="title"><a href='{{ route('home.mobiledev') }}'>Mobile Development</a></h4>
+                                <span>Unified Code Base for iOS and Android</span>
                             </div>
                             <div class="link-arrow">
                                 <a href='/project-details'>
@@ -119,8 +117,8 @@
                         </div>
                         <div class="project-content">
                             <div class="left-side-content">
-                                <h4 class="title"><a href='/project-details'>Data Analytics</a></h4>
-                                <span>Insights for Informed Decisions</span>
+                                <h4 class="title"><a href='{{ route('home.cmsdev') }}'>CMS Development</a></h4>
+                                <span>Powered by Wordpress & Drupal</span>
                             </div>
                             <div class="link-arrow">
                                 <a href='/project-details'>
@@ -150,7 +148,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-7">
-                <div class="section-title text-center mb-50 tg-heading-subheading animation-style3">
+                <div class="section-title text-center mb-50 tg-heading-subheading ">
                     <span class="sub-title">OUR SOLUTIONS</span>
                     <h2 class="title tg-element-title">Enterprise Solutions</h2>
                 </div>

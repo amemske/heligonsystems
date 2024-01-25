@@ -42,9 +42,9 @@
                             <h4 class="fw-title">Solutions</h4>
                             <div class="footer-link-list">
                                 <ul class="list-wrap">
-                                    <li><a href='/about'>Web Development</a></li>
-                                    <li><a href='/team'>Mobile Development</a></li>
-                                    <li><a href='/contact'>Data Analytics</a></li>
+                                    <li><a href='{{ route('home.webdev') }}'>Web App Development</a></li>
+                                    <li><a href='{{ route('home.mobiledev') }}'>Mobile Development</a></li>
+                                    <li><a href='{{ route('home.cmsdev') }}'>Drupal Development</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -54,9 +54,9 @@
                             <h4 class="fw-title">About</h4>
                             <div class="footer-link-list">
                                 <ul class="list-wrap">
-                                    <li><a href='/about'>Why us</a></li>
-                                    <li><a href='/contact'>Contacts</a></li>
-                                    <li><a href='/contact'>FAQ</a></li>
+                                    <li><a href='{{ route('home.about') }}'>About</a></li>
+                                    <li><a href='{{ route('home.approach') }}'>Our Approach</a></li>
+                                    <li><a href='#'>Contacts</a></li>
                                 </ul>
                             </div>
                         </div>

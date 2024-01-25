@@ -175,3 +175,63 @@
 .about__list-box .list-wrap li i {
     background: #1da8b2;
 }
+
+.services__content-five .title {
+    text-transform: capitalize;
+}
+
+.services__icon-five {
+    color: #1da8b2;
+}
+
+.services__item-five:hover {
+    transform: unset;
+}
+
+.services__item-five:hover .icon {
+    transform: unset;
+    transition-duration: unset;
+}
+
+.services__icon-shape .shape:nth-child(1) svg {
+    color: #d8f4f6;
+}
+
+.services__item-two:hover .services__icon-two {
+    transform: unset;
+}
+
+.breadcrumb__content .breadcrumb-item {
+    font-size: 16px;
+    color: #1da8b2;
+}
+
+.frameworks-we-use img {
+    max-height: 80px;
+    width: 100%;
+}
+
+a:hover, button:hover {
+    color: #1da8b2;
+    text-decoration: none;
+}
+
+.tgmenu__main-menu li.menu-item-has-children>a:hover {
+    color: #1da8b2;
+}
+
+.tgmenu__main-menu li.menu-item-has-children:hover>a::after {
+    color: #1da8b2;
+}
+
+.tgmenu__navbar-wrap>ul>li .sub-menu>li:hover>a, .tgmenu__navbar-wrap>ul>li .sub-menu>li.active>a {
+    color: #1da8b2;
+}
+
+.tgmenu__main-menu li.menu-item-has-children.active>a::after {
+    color:  #1da8b2;
+}
+
+p.aos-init {
+    color: #000;
+}
