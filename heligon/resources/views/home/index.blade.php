@@ -4,7 +4,7 @@
 
 @section('content')
    <!-- banner-area -->
-   <section class="banner-area banner-bg" data-background="{{ asset('assets/img/hero1.jpg') }}">
+   <section class="banner-area banner-bg" data-background="{{ asset('assets/img/hero1.webp') }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -27,7 +27,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="about-img-wrap">
-                        <img src="{{ asset('assets/img/home-intro.jpg') }}" alt="">
+                        <img src="{{ asset('assets/img/home-intro.webp') }}" alt="">
                     
                     
                    
@@ -48,7 +48,7 @@
         </div>
     </div>
     <div class="about-left-shape">
-        <img src="{{ asset('assets/img/images/about_shape02.png') }}" alt="">
+        <img src="{{ asset('assets/img/images/about_shape02.webp') }}" alt="">
     </div>
 </section>
 <!-- about-area-end -->
@@ -71,7 +71,7 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="project-item">
                         <div class="project-thumb">
-                            <a href='/project-details'><img src="{{ asset('assets/img/home-web.jpg') }}" alt=""></a>
+                            <a href='/project-details'><img src="{{ asset('assets/img/home-web.webp') }}" alt=""></a>
                         </div>
                         <div class="project-content">
                             <div class="left-side-content">
@@ -92,7 +92,7 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="project-item">
                         <div class="project-thumb">
-                            <a href='/project-details'><img src="{{ asset('assets/img/home-mobile.jpg') }}" alt=""></a>
+                            <a href='/project-details'><img src="{{ asset('assets/img/home-mobile.webp') }}" alt=""></a>
                         </div>
                         <div class="project-content">
                             <div class="left-side-content">
@@ -113,7 +113,7 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="project-item">
                         <div class="project-thumb">
-                            <a href='/project-details'><img src="{{ asset('assets/img/home-data.jpg') }}" alt=""></a>
+                            <a href='/project-details'><img src="{{ asset('assets/img/home-data.webp') }}" alt=""></a>
                         </div>
                         <div class="project-content">
                             <div class="left-side-content">
@@ -163,7 +163,7 @@
                      
                         <li>
                             <div class="icon">
-                                <img src="{{ asset('assets/img/hexagon.png') }}" alt="hexagon" class="">
+                                <img src="{{ asset('assets/img/hexagon.webp') }}" alt="hexagon" class="">
                             </div>
                             <div class="content">
                                 <h4 class="title">Seamless Supply Chain and Logistics</h4>
@@ -172,7 +172,7 @@
                         </li>
                         <li>
                             <div class="icon">
-                                <img src="{{ asset('assets/img/hexagon.png') }}" alt="hexagon" class="">
+                                <img src="{{ asset('assets/img/hexagon.webp') }}" alt="hexagon" class="">
                             </div>
                             <div class="content">
                                 <h4 class="title">Insightful Data Analytics and Business Intelligence</h4>
@@ -189,7 +189,7 @@
                         <ul class="list-wrap">
                             <li>
                                 <div class="icon">
-                                    <img src="{{ asset('assets/img/hexagon.png') }}" alt="hexagon" class="">
+                                    <img src="{{ asset('assets/img/hexagon.webp') }}" alt="hexagon" class="">
                                 </div>
                                 <div class="content">
                                     <h4 class="title">Streamlined Enterprise Resource Planning (ERP)s</h4>
@@ -198,7 +198,7 @@
                             </li>
                             <li>
                                 <div class="icon">
-                                    <img src="{{ asset('assets/img/hexagon.png') }}" alt="hexagon" class="">
+                                    <img src="{{ asset('assets/img/hexagon.webp') }}" alt="hexagon" class="">
                                 </div>
                                 <div class="content">
                                     <h4 class="title">Enhanced Customer Relationship Management (CRM)</h4>

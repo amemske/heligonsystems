@@ -4,7 +4,7 @@
 
 @section('content')
  <!-- breadcrumb-area -->
- <section class="breadcrumb__area breadcrumb__bg" data-background="{{ asset('assets/img/bg/breadcrumb_bg.jpg') }}">
+ <section class="breadcrumb__area breadcrumb__bg" data-background="{{ asset('assets/img/bg/breadcrumb_bg.webp') }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -29,7 +29,7 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6 col-md-9 order-0 order-lg-2">
                 <div class="about__img-wrap-seven">
-                    <img src="{{ asset('assets/img/about-img.jpg') }}" alt="">
+                    <img src="{{ asset('assets/img/about-img.webp') }}" alt="">
                     
                     
                 </div>
@@ -55,7 +55,7 @@
 
 <!-- request-area -->
 <section class="request__area-two">
-    <div class="request__bg-two" data-background="{{ asset('assets/img/about-bg.jpg') }}"></div>
+    <div class="request__bg-two" data-background="{{ asset('assets/img/about-bg.webp') }}"></div>
     <div class="container">
         <div class="row justify-content-end">
             <div class="col-xl-8 col-lg-8">

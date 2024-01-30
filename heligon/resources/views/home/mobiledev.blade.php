@@ -4,7 +4,7 @@
 
 @section('content')
  <!-- breadcrumb-area -->
- <section class="breadcrumb__area breadcrumb__bg" data-background="assets/img/bg/breadcrumb_bg.jpg">
+ <section class="breadcrumb__area breadcrumb__bg" data-background="assets/img/bg/breadcrumb_bg.webp">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -29,7 +29,7 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6 col-md-9 order-0 order-lg-2">
                 <div class="about__img-wrap-seven">
-                    <img src="{{ asset('assets/img/mobile-img.jpg') }}" alt="">
+                    <img src="{{ asset('assets/img/mobile-img.webp') }}" alt="">
                     
                 </div>
             </div>
@@ -95,14 +95,14 @@
                 <div class="services__item-five">
                  
                     <div class="services__content-five">
-                        <h2 class="title"><a href='/services-details'>Fitness Solutions</a></h2>
-                        <p>Our team of engineers create diverse range of fitness applications, covering everything from nutrition to personalized workout routines and activity tracking. These apps are meticulously tailored for both Android and iOS platforms, seamlessly integrating features like synchronization with native health services (HealthKit, GoogleFit), geolocation services (Google Maps, MapKit), and more.</p>
+                        <h2 class="title"><a href='/services-details'>E-Commerce Platform</a></h2>
+                        <p>Our e-commerce solutions empower businesses to thrive in the digital marketplace. With a focus on user experience and scalability, our team crafts dynamic platforms tailored to client needs. Our e-commerce apps seamlessly integrate payment gateways, inventory management systems, and customer relationship tools, ensuring a seamless shopping experience across web and mobile platforms.</p>
                       
                         <p class="title">Average Development time</p>
-                        <p>1800 hours</p>
+                        <p>2000 hours</p>
 
                         <p class="title">Average project time</p>
-                        <p>4 months</p>
+                        <p>5 months</p>
 
                     </div>
                 </div>
@@ -111,14 +111,14 @@
                 <div class="services__item-five">
                  
                     <div class="services__content-five">
-                        <h2 class="title"><a href='/services-details'>Fitness Solutions</a></h2>
-                        <p>Our team of engineers create diverse range of fitness applications, covering everything from nutrition to personalized workout routines and activity tracking. These apps are meticulously tailored for both Android and iOS platforms, seamlessly integrating features like synchronization with native health services (HealthKit, GoogleFit), geolocation services (Google Maps, MapKit), and more.</p>
+                        <h2 class="title"><a href='/services-details'>Education & Learning App</a></h2>
+                        <p>Transform education with our immersive learning applications. Our educational solutions revolutionize the way users engage with content, offering interactive lessons, personalized learning paths, and comprehensive analytics. Whether it's language learning, skill development, or academic tutoring, our apps empower learners to achieve their goals with ease.</p>
                       
                         <p class="title">Average Development time</p>
-                        <p>1800 hours</p>
+                        <p>2200  hours</p>
 
                         <p class="title">Average project time</p>
-                        <p>4 months</p>
+                        <p>5 months</p>
 
                     </div>
                 </div>
@@ -127,14 +127,14 @@
                 <div class="services__item-five">
                  
                     <div class="services__content-five">
-                        <h2 class="title"><a href='/services-details'>Fitness Solutions</a></h2>
-                        <p>Our team of engineers create diverse range of fitness applications, covering everything from nutrition to personalized workout routines and activity tracking. These apps are meticulously tailored for both Android and iOS platforms, seamlessly integrating features like synchronization with native health services (HealthKit, GoogleFit), geolocation services (Google Maps, MapKit), and more.</p>
+                        <h2 class="title"><a href='/services-details'>Social Networking App</a></h2>
+                        <p>Elevate your social networking experience with our innovative solutions. Our team designs cutting-edge social platforms that foster meaningful connections and engagement. From intuitive user interfaces to robust backend infrastructure, our apps harness the power of social interaction, offering features like real-time messaging, multimedia sharing, and advanced privacy controls.</p>
                       
                         <p class="title">Average Development time</p>
-                        <p>1800 hours</p>
+                        <p>2500 hours</p>
 
                         <p class="title">Average project time</p>
-                        <p>4 months</p>
+                        <p>6 months</p>
 
                     </div>
                 </div>
@@ -146,7 +146,7 @@
 <!-- services-area-end -->
 
  <!-- services-area -->
- <section class="services__area-six services__bg-six" data-background="assets/img/bg/h3_services_bg.jpg">
+ <section class="services__area-six services__bg-six" data-background="assets/img/bg/h3_services_bg.webp">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">
@@ -242,23 +242,14 @@
                     <h1 class="title tg-element-title mb-20 text-center">Frequently asked questions</h1>
                      <div class="block-faqs">
                         <div class="accordion wow fadeInUp" id="accordionFAQ">
-                            <div class="accordion-item">
-                                <h5 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button text-heading-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        How are your development teams structured?
-                                    </button>
-                                </h5>
-                                <div class="accordion-collapse collapse" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
-                                    <div class="accordion-body">Our development teams are meticulously crafted with certified engineers chosen for their specialized skills and extensive experience. Each team is tailored to meet the unique demands of your project, guaranteeing timely and cost-effective outcomes.</div>
-                                </div>
-                            </div>
+                           
                             <div class="accordion-item">
                                 <h5 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button text-heading-5 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        What makes your Drupal services exceptional?
+                                        What makes your Mobile Development services exceptional?
                                 </h5>
                                 <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
-                                    <div class="accordion-body">Our Drupal expertise goes beyond conventional offerings. We provide a comprehensive suite of services, including secure and scalable web application development, UI/UX design, migration solutions, e-commerce development, and 24/7 support. This holistic approach ensures your Drupal project thrives at every stage.</div>
+                                    <div class="accordion-body">Our Mobile Development expertise transcends traditional boundaries. We offer a wide range of services tailored to the mobile ecosystem, encompassing native and cross-platform app development, responsive design, mobile UI/UX optimization, backend integration, and continuous support. This comprehensive approach guarantees that your mobile project excels across diverse platforms and devices.</div>
                                 </div>
                             </div>
                             

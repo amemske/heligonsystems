@@ -4,7 +4,7 @@
 
 @section('content')
  <!-- breadcrumb-area -->
- <section class="breadcrumb__area breadcrumb__bg" data-background="{{ asset('assets/img/bg/breadcrumb_bg.jpg') }}">
+ <section class="breadcrumb__area breadcrumb__bg" data-background="{{ asset('assets/img/bg/breadcrumb_bg.webp') }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -24,12 +24,12 @@
 </section>
 <!-- breadcrumb-area-end -->
   <!-- about-area -->
-  <section class="about__area-three about__bg-two" data-background="{{ asset('assets/img/bg/h3_about_bg.jpg') }}">
+  <section class="about__area-three about__bg-two" data-background="{{ asset('assets/img/bg/h3_about_bg.webp') }}">
     <div class="container">
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6 col-md-8">
                 <div class="about__img-wrap-three">
-                    <img src="{{ asset('assets/img/approach.png') }}" alt="">
+                    <img src="{{ asset('assets/img/approach.webp') }}" alt="">
                     
                 </div>
             </div>
@@ -64,7 +64,7 @@
 <!-- about-area-end -->
 
   <!-- services-area -->
-        <section class="services__area-four services__bg-four" data-background="{{ asset('assets/img/bg/inner_services_bg.jpg') }}">
+        <section class="services__area-four services__bg-four" data-background="{{ asset('assets/img/bg/inner_services_bg.webp') }}">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">

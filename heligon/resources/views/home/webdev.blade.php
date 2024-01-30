@@ -4,7 +4,7 @@
 
 @section('content')
  <!-- breadcrumb-area -->
- <section class="breadcrumb__area breadcrumb__bg" data-background="{{ asset('assets/img/bg/breadcrumb_bg.jpg') }}">
+ <section class="breadcrumb__area breadcrumb__bg" data-background="{{ asset('assets/img/bg/breadcrumb_bg.webp') }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -29,7 +29,7 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6 col-md-9 order-0 order-lg-2">
                 <div class="about__img-wrap-seven">
-                    <img src="{{ asset('assets/img/webapp-image.jpg') }}" alt="">
+                    <img src="{{ asset('assets/img/webapp-image.webp') }}" alt="">
                     
                 </div>
             </div>
@@ -64,7 +64,7 @@
 <!-- about-area-end -->
 
 <!-- services-area -->
-<section class="services__area-four services__bg-four" data-background="{{ asset('assets/img/bg/inner_services_bg.jpg') }}">
+<section class="services__area-four services__bg-four" data-background="{{ asset('assets/img/bg/inner_services_bg.webp') }}">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
@@ -149,7 +149,7 @@
 <!-- services-area-end -->
 
  <!-- services-area -->
- <section class="services__area-six services__bg-six" data-background="{{ asset('assets/img/bg/h3_services_bg.jpg') }}">
+ <section class="services__area-six services__bg-six" data-background="{{ asset('assets/img/bg/h3_services_bg.webp') }}">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">   
@@ -163,7 +163,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="services__item-two">
                     <div class="services__icon-two portfolio-casestudies frameworks-we-use">
-                        <img src="{{ asset('assets/img/spring.png') }}" alt="">
+                        <img src="{{ asset('assets/img/spring.webp') }}" alt="">
                     </div>
                     <div class="services__content-two">
                         <h2 class="title"><a href='/services-details'>Spring</a></h2>
@@ -183,7 +183,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="services__item-two">
                     <div class="services__icon-two portfolio-casestudies frameworks-we-use">
-                        <img src="{{ asset('assets/img/laravel.png') }}" alt="">
+                        <img src="{{ asset('assets/img/laravel.webp') }}" alt="">
                     </div>
                     <div class="services__content-two">
                         <h2 class="title"><a href='/services-details'>Laravel</a></h2>
