@@ -41,3 +41,11 @@ Route::get('/contact', function () {
     return  view('home.contact');
 })->name('home.contact');
 
+
+Route::get('/sitemap.xml', function(){
+    $content = view('home.sitemap')->render(); //renders the loaded view to a string. It converts the Blade template into HTML/XML content.
+    return Response::make($content, 200, [ //make takes in the content, the status code and the headers
+        'Content-Type' => 'text/xml',
+    ]);
+})->name('home.sitemap');
+
