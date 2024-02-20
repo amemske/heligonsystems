@@ -31,13 +31,13 @@
                                         
                                     </li>
                                     <li class="menu-item-has-children {{ Route::is('home.cmsdev') ? 'active' : '' }}">
-                                        <a href="#">Web Development</a>
+                                        <a href="#">Web Development &nbsp; <i class="fa-solid fa-angle-down"></i></a>
                                         <ul class="sub-menu">
                                             <li class="{{ Route::is('home.cmsdev') ? 'active' : '' }}"><a href='{{ route('home.cmsdev') }}'>CMS Development</a></li>
                                             <li class="{{ Route::is('home.webdev') ? 'active' : '' }}"><a href='{{ route('home.webdev') }}'>Web App Development</a></li>
                                         </ul>
                                     </li>
-                                    <li class="{{ Route::is('home.mobiledev') ? 'active' : '' }}"><a href="{{ route('home.mobiledev') }}">Mobile Development</a>
+                                    <li class="{{ Route::is('home.mobiledev') ? 'active' : '' }}"><a href="{{ route('home.mobiledev') }}">Mobile Development </a>
                                         
                                     </li>
                                     
@@ -78,10 +78,7 @@
                                 <a href='/'><img src="assets/img/logo/logo.png" alt="Logo"></a>
                             </div>
                             <div class="tgmobile__search">
-                                <form action="#">
-                                    <input type="text" placeholder="Search here...">
-                                    <button><i class="fas fa-search"></i></button>
-                                </form>
+                                <p><a href="tel:0123456789">Tel: +254 727 781090</a></p>
                             </div>
                             <div class="tgmobile__menu-outer">
                                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->

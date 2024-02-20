@@ -3,7 +3,7 @@
 }
 
 .project-area {
-    padding: 60px 0 60px;
+    padding: 0px 0 30px;
     position: relative;
 }
 
@@ -235,3 +235,56 @@ a:hover, button:hover {
 p.aos-init {
     color: #000;
 }
+
+.tgmenu__main-menu li.menu-item-has-children>a::after {
+    display: none;
+}
+
+a, button {
+    color: #1da8b2;
+}
+.tgmenu__navbar-wrap>ul>li a::after {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .banner-content .title {
+        font-size: 33px;
+    }
+    
+    .navigation i {
+        display: none;
+    }
+
+    .tgmobile__menu .close-btn {
+        color: #1da8b2;
+    }
+    .tgmobile__search {
+        padding: 0 20px 0px 25px;
+    }
+
+    .banner-bg {
+        min-height: 190px;
+    }
+    
+    .about-img-wrap {
+        margin-bottom: 0px;
+    }
+    
+    .project-area {
+        padding: 0px 0 0px;
+        position: relative;
+    }
+    
+    .about-area {
+        padding: 20px 0;
+    }
+
+    .banner-content p {
+        margin-bottom: 10px;
+    }
+    .tgmobile__menu .navigation li.active>a {
+        color: #1da8b2;
+    }
+    
+  }

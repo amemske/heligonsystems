@@ -1,16 +1,16 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
+@section('title', 'Best Web and Mobile Development Company')
 
 @section('content')
    <!-- banner-area -->
    <section class="banner-area banner-bg" data-background="{{ asset('assets/img/hero1.webp') }}">
-    <div class="container">
+    <div class="container d-none d-sm-block">
         <div class="row">
             <div class="col-lg-6">
                 <div class="banner-content">
-                    <h2 class="title" data-aos="fade-up" data-aos-delay="200">Crafting Success with Innovative Tech Solutions</h2>
-                    <p data-aos="fade-up" data-aos-delay="400">Unleash the potential of digital transformation with our comprehensive range of services. From strategic consultation and software development to cutting-edge machine learning and user experience design, we’re your partner in progress.</p>
+                    <h1 class="title" data-aos="fade-up" data-aos-delay="200">Achieve Success </br>with Expert Web <br>& Mobile Solution</h1>
+                    <p data-aos="fade-up" data-aos-delay="400">Explore our comprehensive services for digital transformation. From strategic consultation to cutting-edge software development, web design, and mobile app development, we're here to help you progress.</p>
                     
                 </div>
                
@@ -19,6 +19,20 @@
        
     </div>
 </section>
+<div class="container d-block d-sm-none pt-3">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="banner-content">
+                <h2 class="title" data-aos="fade-up" data-aos-delay="200">Succeed with </br>Proven Web <br>& Mobile Solution</h2>
+                <p data-aos="fade-up" data-aos-delay="400">Discover our wide array of services tailored for your digital evolution.
+                    From insightful consultations to responsive web design, and mobile app creation, we're committed to driving your growth.</p>
+                
+            </div>
+           
+        </div>
+    </div>
+   
+</div>
 <!-- banner-area-end -->
 
 <!-- about-area -->
@@ -27,22 +41,15 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="about-img-wrap">
-                        <img src="{{ asset('assets/img/home-intro.webp') }}" alt="">
-                    
-                    
-                   
-                   
+                        <img src="{{ asset('assets/img/home-intro.webp') }}" alt="Trusted Software Solutions Partner - Web Design and Development">                 
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about-content">
                     <div class="section-title mb-35 tg-heading-subheading ">
                         <h2 class="title tg-element-title">Trusted Software Solutions Partner</h2>
-                    </div>
-                   
-                    <p>Unlock the full potential of your business with our tailored software solutions, spanning web, mobile, and cloud platforms. Our agile methodology ensures swift and effective outcomes, suitable for projects of all scopes. Propel your growth trajectory with our specialized expertise.</p>
-                    
-                    
+                    </div>                 
+                    <p>Unlock the full potential of your business with our tailored software solutions, spanning web, mobile, and cloud platforms. Our agile methodology ensures swift and effective outcomes, suitable for projects of all scopes. Propel your growth trajectory with our specialized expertise.</p>                                  
                 </div>
             </div>
         </div>
@@ -71,7 +78,7 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="project-item">
                         <div class="project-thumb">
-                            <a href='/project-details'><img src="{{ asset('assets/img/home-web.webp') }}" alt=""></a>
+                            <a href='/project-details'><img src="{{ asset('assets/img/home-web.webp') }}" alt="Web App Development - Best Website Builders"></a>
                         </div>
                         <div class="project-content">
                             <div class="left-side-content">
@@ -92,7 +99,7 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="project-item">
                         <div class="project-thumb">
-                            <a href='/project-details'><img src="{{ asset('assets/img/home-mobile.webp') }}" alt=""></a>
+                            <a href='/project-details'><img src="{{ asset('assets/img/home-mobile.webp') }}" alt="mobile app developers"></a>
                         </div>
                         <div class="project-content">
                             <div class="left-side-content">
@@ -113,11 +120,11 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="project-item">
                         <div class="project-thumb">
-                            <a href='/project-details'><img src="{{ asset('assets/img/home-data.webp') }}" alt=""></a>
+                            <a href='/project-details'><img src="{{ asset('assets/img/home-data.webp') }}" alt="Wordpress Responsive Web Design"></a>
                         </div>
                         <div class="project-content">
                             <div class="left-side-content">
-                                <h4 class="title"><a href='{{ route('home.cmsdev') }}'>CMS Development</a></h4>
+                                <h4 class="title"><a href='{{ route('home.cmsdev') }}'>Responsive Web Design</a></h4>
                                 <span>Powered by Wordpress & Drupal</span>
                             </div>
                             <div class="link-arrow">
@@ -224,32 +231,32 @@
            
             <div class="swiper-slide">
                 <div class="brand-item">
-                    <img src="{{ asset('assets/img/brand/brand_img02.png') }}" alt="">
+                    <img src="{{ asset('assets/img/brand/brand_img02.png') }}" alt="Maseno University - Drupal development">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="brand-item">
-                    <img src="{{ asset('assets/img/brand/brand_img03.png') }}" alt="">
+                    <img src="{{ asset('assets/img/brand/brand_img03.png') }}" alt="All African Conference of Churches - Drupal development">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="brand-item">
-                    <img src="{{ asset('assets/img/brand/brand_img04.png') }}" alt="">
+                    <img src="{{ asset('assets/img/brand/brand_img04.png') }}" alt="Center for Urban Research and Innovation - Wordpress development">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="brand-item">
-                    <img src="{{ asset('assets/img/brand/brand_img05.png') }}" alt="">
+                    <img src="{{ asset('assets/img/brand/brand_img05.png') }}" alt="Tom Mboya University - Drupal  web development">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="brand-item">
-                    <img src="{{ asset('assets/img/brand/brand_img06.png') }}" alt="">
+                    <img src="{{ asset('assets/img/brand/brand_img06.png') }}" alt="ROHO - Wordpress development">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="brand-item">
-                    <img src="{{ asset('assets/img/brand/brand_img03.png') }}" alt="">
+                    <img src="{{ asset('assets/img/brand/brand_img03.png') }}" alt="All African Conference of Churches - Drupal development">
                 </div>
             </div>
         </div>
