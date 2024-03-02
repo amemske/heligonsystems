@@ -30,10 +30,10 @@
                                     <li class="{{ Route::is('home.index') ? 'active' : '' }}"><a href="{{ route('home.index') }}">Home</a>
                                         
                                     </li>
-                                    <li class="menu-item-has-children {{ Route::is('home.cmsdev') ? 'active' : '' }}">
+                                    <li class="menu-item-has-children {{ Route::is('home.webdesign') ? 'active' : '' }}">
                                         <a href="#">Web Development &nbsp; <i class="fa-solid fa-angle-down"></i></a>
                                         <ul class="sub-menu">
-                                            <li class="{{ Route::is('home.cmsdev') ? 'active' : '' }}"><a href='{{ route('home.cmsdev') }}'>CMS Development</a></li>
+                                            <li class="{{ Route::is('home.webdesign') ? 'active' : '' }}"><a href='{{ route('home.webdesign') }}'>Web Design Services</a></li>
                                             <li class="{{ Route::is('home.webdev') ? 'active' : '' }}"><a href='{{ route('home.webdev') }}'>Web App Development</a></li>
                                         </ul>
                                     </li>

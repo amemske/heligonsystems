@@ -124,7 +124,7 @@
                         </div>
                         <div class="project-content">
                             <div class="left-side-content">
-                                <h4 class="title"><a href='{{ route('home.cmsdev') }}'>Responsive Web Design</a></h4>
+                                <h4 class="title"><a href='{{ route('home.webdesign') }}'>Responsive Web Design</a></h4>
                                 <span>Powered by Wordpress & Drupal</span>
                             </div>
                             <div class="link-arrow">

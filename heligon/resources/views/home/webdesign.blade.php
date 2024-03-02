@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'CMS Development')
+@section('title', 'Web Design Services - Best Website Design Company')
+
+@section('meta_description', 'Discover our expert CMS services at Heligon Systems. We specialize in crafting secure and scalable websites using Drupal and Wordpress. Elevate your online presence with our comprehensive suite of services, including UI/UX design, migration solutions, e-commerce development, and 24/7 support. Contact us today!')
 
 @section('content')
  <!-- breadcrumb-area -->
@@ -9,11 +11,11 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="breadcrumb__content">
-                    <h2 class="title">CMS Development</h2>
+                    <h2 class="title">Web Design</h2>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href='/'>Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">CMS development</li>
+                            <li class="breadcrumb-item"><a href='/'>Home</a></li>&nbsp;<li><i class="fa-solid fa-angle-right"></i></li> &nbsp;
+                            <li class="breadcrumb-item active" aria-current="page">Web Design</li>
                         </ol>
                     </nav>
                 </div>
@@ -29,15 +31,15 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6 col-md-9 order-0 order-lg-2">
                 <div class="about__img-wrap-seven">
-                    <img src="{{ asset('assets/img/cms-img.webp') }}" alt="">
+                    <img src="{{ asset('assets/img/cms-img.webp') }}" alt="Responsive Web Design Services">
                     
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about__content-seven">
                     <div class="section-title mb-25">
-                        <span class="sub-title">Our CMS Service</span>
-                        <h2 class="title"> Elevate Your Business with Responsive Excellence</h2>
+                        <span class="sub-title">Our Web Design Service</span>
+                        <h1 class="title"> Elevate Your Business with Responsive Excellence</h1>
                     </div>
                     <p>Our focus is on designing and developing responsive web sites, harnessing the prowess of the industry’s most robust and cutting-edge technologies to elevate your business to new heights.</p>
                     <div class="about__content-inner-five">
@@ -58,7 +60,6 @@
     </div>
     <div class="about__shape-wrap-four">
         <img src="{{ asset('assets/img/images/h4_about_shape01.png') }}" alt="">
-        <img src="{{ asset('assets/img/images/h4_about_shape02.png') }}" alt="" data-parallax='{"x" : -80 , "y" : -80 }'>
     </div>
 </section>
 <!-- about-area-end -->
@@ -163,7 +164,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="services__item-two">
                     <div class="services__icon-two portfolio-casestudies">
-                        <img src="{{ asset('assets/img/maseno.webp') }}" alt="">
+                        <img src="{{ asset('assets/img/maseno.webp') }}" alt="University website - Drupal web development">
                     </div>
                     <div class="services__content-two">
                         <h2 class="title"><a href='https://www.maseno.ac.ke/' target="_blank">Maseno University</a></h2>
@@ -173,7 +174,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="services__item-two">
                     <div class="services__icon-two portfolio-casestudies">
-                        <img src="{{ asset('assets/img/aacc.webp') }}" alt="">
+                        <img src="{{ asset('assets/img/aacc.webp') }}" alt="non-profit organization - Drupal web development">
                     </div>
                     <div class="services__content-two">
                         <h2 class="title"><a href='https://www.aacc-ceta.org/' target="_blank">AACC</a></h2>
@@ -183,7 +184,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="services__item-two">
                     <div class="services__icon-two portfolio-casestudies">
-                        <img src="{{ asset('assets/img/tomboya.webp') }}" alt="">
+                        <img src="{{ asset('assets/img/tomboya.webp') }}" alt="University website - Drupal website development">
                     </div>
                     <div class="services__content-two">
                         <h2 class="title"><a href='https://www.tmu.ac.ke/' target="_blank">Tom Mboya University</a></h2>
@@ -210,10 +211,10 @@
                             <div class="accordion-item">
                                 <h5 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button text-heading-5 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        What makes your Drupal services exceptional?
+                                        What makes your Web Design services exceptional?
                                 </h5>
                                 <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
-                                    <div class="accordion-body">Our Drupal expertise goes beyond conventional offerings. We provide a comprehensive suite of services, including secure and scalable web application development, UI/UX design, migration solutions, e-commerce development, and 24/7 support. This holistic approach ensures your Drupal project thrives at every stage.</div>
+                                    <div class="accordion-body">Our Web Design  expertise goes beyond conventional offerings. We provide a comprehensive suite of services, including secure and scalable web application development, UI/UX design, migration solutions, e-commerce development, and 24/7 support. This holistic approach ensures your Drupal and Wordpress project thrives at every stage.</div>
                                 </div>
                             </div>
                             

@@ -26,15 +26,25 @@
                                             <a href="mailto:info@apexa.com">info@heligonsystems.com</a>
                                         </div>
                                     </li>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-location-pin"></i>
+                                        </div>
+                                        <div class="content text-grey">
+                                            Chieko Plaza, <br>
+                                            1st floor, RM B1-11,<br>
+                                            Kikuyu Town.
+                                        </div>
+                                    </li>
                                  
                                 </ul>
                             </div>
-                            <div class="footer__social-three">
+                            {{-- <div class="footer__social-three">
                                 <ul class="list-wrap">
                                     <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
                                 </ul>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
@@ -44,7 +54,7 @@
                                 <ul class="list-wrap">
                                     <li><a href='{{ route('home.webdev') }}'>Web App Development</a></li>
                                     <li><a href='{{ route('home.mobiledev') }}'>Mobile Development</a></li>
-                                    <li><a href='{{ route('home.cmsdev') }}'>Drupal Development</a></li>
+                                    <li><a href='{{ route('home.webdesign') }}'>Drupal Development</a></li>
                                 </ul>
                             </div>
                         </div>

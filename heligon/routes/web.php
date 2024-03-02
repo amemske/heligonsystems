@@ -21,9 +21,9 @@ Route::get('/web-development', function () {
     return  view('home.webdev');
 })->name('home.webdev');
 
-Route::get('/cms-development', function () {
-    return  view('home.cmsdev');
-})->name('home.cmsdev');
+Route::get('/web-design', function () {
+    return  view('home.webdesign');
+})->name('home.webdesign');
 
 Route::get('/mobile-development', function () {
     return  view('home.mobiledev');

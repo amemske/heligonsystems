@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Web Development')
+@section('title', 'Frontend & Backend Solutions with Javascript, Laravel, and Spring')
+
+@section('meta_description', 'Discover our tailored web app development services at Heligon Systems. Our expert Laravel developers craft responsive and secure web applications, leveraging cutting-edge technologies like Laravel, Next.js, and Spring. Elevate your online presence with adaptable, performance-optimized web solutions. Contact us today!')
 
 @section('content')
  <!-- breadcrumb-area -->
@@ -29,7 +31,7 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6 col-md-9 order-0 order-lg-2">
                 <div class="about__img-wrap-seven">
-                    <img src="{{ asset('assets/img/webapp-image.webp') }}" alt="">
+                    <img src="{{ asset('assets/img/webapp-image.webp') }}" alt="fullstack developers">
                     
                 </div>
             </div>
@@ -58,7 +60,6 @@
     </div>
     <div class="about__shape-wrap-four">
         <img src="{{ asset('assets/img/images/h4_about_shape01.png') }}" alt="">
-        <img src="{{ asset('assets/img/images/h4_about_shape02.png') }}" alt="" data-parallax='{"x" : -80 , "y" : -80 }'>
     </div>
 </section>
 <!-- about-area-end -->
@@ -163,7 +164,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="services__item-two">
                     <div class="services__icon-two portfolio-casestudies frameworks-we-use">
-                        <img src="{{ asset('assets/img/spring.webp') }}" alt="">
+                        <img src="{{ asset('assets/img/spring.webp') }}" alt="Spring Framework - backend web development">
                     </div>
                     <div class="services__content-two">
                         <h2 class="title"><a href='/services-details'>Spring</a></h2>
@@ -173,7 +174,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="services__item-two">
                     <div class="services__icon-two portfolio-casestudies frameworks-we-use">
-                        <img src="{{ asset('assets/img/next-js.svg') }}" alt="">
+                        <img src="{{ asset('assets/img/next-js.svg') }}" alt="Next.js Framework - single page apps">
                     </div>
                     <div class="services__content-two">
                         <h2 class="title"><a href='/services-details'>next-js</a></h2>
@@ -183,7 +184,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="services__item-two">
                     <div class="services__icon-two portfolio-casestudies frameworks-we-use">
-                        <img src="{{ asset('assets/img/laravel.webp') }}" alt="">
+                        <img src="{{ asset('assets/img/laravel.webp') }}" alt="Laravel Framework - ecommerce websites with laravel">
                     </div>
                     <div class="services__content-two">
                         <h2 class="title"><a href='/services-details'>Laravel</a></h2>

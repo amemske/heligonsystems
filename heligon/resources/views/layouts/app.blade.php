@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> @yield('title') - Heligon Systems</title>
     <meta name="keywords" content="web design, web development, website design, best website builders, web developers, best website design, ecommerce websites, responsive web design, best website makers, web design websites, website design and development, great website designs, good web design, best web page design, responsive website design, web site designs, drupal design and development, wordpress webpage, build wordpress site, wordpress website creation, wordpress blog, drupal website, websites built with drupal, best webdesign company">
-    <meta name="description" content="Heligon Systems specializes in comprehensive technology solutions, including custom software development, web design, mobile app development, and strategic technology consulting. Our expert team delivers innovative solutions tailored to your business needs, driving growth and enhancing user experiences. Partner with us for top-notch technology services designed to propel your business forward.">
+    <meta name="description" content="@yield('meta_description', 'Heligon Systems specializes in comprehensive technology solutions, including custom software development, web design, mobile app development, and strategic technology consulting. Our expert team delivers innovative solutions tailored to your business needs, driving growth and enhancing user experiences. Partner with us for top-notch technology services designed to propel your business forward.')">
+    
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon.webp') }}">
     <!-- Place favicon.ico in the root directory -->
     <!-- CSS here -->
